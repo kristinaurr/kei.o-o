@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+		<title>My Portfolio</title>
+		<style>
+		body{
+				margin:-5px;
+				background-color:#FAF9EE;
+				font-family:roboto;
+				line-height:1.5;
+				font-size:17px;
+				color:black;
+		}
+		
+		*{
+		box-sizing:border-box;
+		}
+		
+		.src table{
+				margin-bottom:-35px;
+				background-color:#D2C4B4;
+		}
+		
+		.src p{
+				font-size:30px;
+				display:flex;
+				align-items:center;
+				justify-content:center;
+		}
+		
+		.src input{
+				background-color:white;
+				border-radius:70px;
+				border:0px;
+				padding:2px 25px 2px 25px;
+				height:37px;
+				width:90%;
+				font-size:18px;
+				box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+		}
+		
+		.src img{
+				width:45px;
+				border-radius:50%;
+		}
+		
+		nav{
+		background-color:#D2C4B4;
+
+		}
+		nav ul{
+				margin:15px;
+				list-style:none;
+				margin-top:30px;
+				display:flex;
+				gap:40px;
+				font-size:19px;
+		}
+		
+		nav ul a:link{
+				color:#62513F;
+				 text-decoration:none;
+		}
+		
+		nav ul a:visited{
+				color:#62513F;
+		}
+		
+		nav ul a:hover{
+				display:block;
+				color:#ffffff;
+		}
+		
+		nav ul a:active{
+				color:#ffffff;
+		}
+		
+		.undernav{
+		margin:50px;
+		}
+		
+		.opening{
+				margin-left:25px;
+				margin-right:25px;
+		}
+		.opening table{
+				border-spacing: 15px;
+		}
+		
+		.image{
+				border-radius:25px;
+				width:615px;
+		}
+		
+		.quote{
+				padding:10px 10px 10px 10px;
+				border-radius:20px;
+				background-color:#D2C4B4;
+				font-size:17px;
+		}
+		
+		.age{
+				padding:10px;
+				border-radius:20px;
+				background-color:#D2C4B4;
+				font-size:17px;
+				line-height:1.0;
+		}
+		
+		.age p:nth-child(2) {
+				font-size:23px;
+		}
+		
+		.nat{
+				padding:10px;
+				border-radius:20px;
+				background-color:#D2C4B4;
+		}
+
+		.nat p:nth-child(2){
+				font-size:23px;
+		}
+		
+		.baba{
+				border-radius:20px;
+				background-color:#D2C4B4;
+		}
+				
+
+
+		.wiki table{
+		padding:15px;
+		width:65%;
+		float:left;
+			}
+			
+			.wimg{
+			margin-top:-20px;
+			padding:5px:
+			align-items:center;
+			justify-content:center;
+			}
+		
+		.abt {
+		padding:25px;
+		width:30%;
+		float:right;
+		border-left: 2px solid ;
+		border-color:#D2C4B4;
+		}
+		
+		
+		.abt table{
+				border-radius:20px;
+				padding:10px;
+				background-color:#D2C4B4;
+				margin-top:65px;
+				margin-bottom:50px;
+		}
+		
+		.projects{
+		margin:15px;		
+		}
+		
+		.profiles {
+		text-align:center;
+		}
+		
+		.profiles img{
+			border: 1px solid;
+			border-color:#212C13;
+			width:50px; 
+		border-radius:50%; 
+		}
+		
+		.bot{
+			border-radius:20px;
+			margin-top:30px;
+			height:50px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			background-color:#D2C4B4;
+			color:#2B231C;
+
+		}
+		
+		.projtable img{
+		border:3px solid;
+		border-color:#D2C4B4;
+		border-radius:10px;
+		}
+		
+	
+		@media (max-width:768px){
+		
+			.right{
+		 display:flex;
+			flex-direction: column;
+			align-items:flex-start;
+			width:40%;
+			float:left;
+			}
+			
+			.quote{
+			float:left;
+			height:200px;
+			}
+			
+			.quote p{
+			margin-top:-10px;
+			line-height:1.0;
+			}	
+			
+		 .pic, .quote{
+		 width:100%;
+		 display:block;
+			flex-direction: column;
+			float:left;
+			}
+			}
+			
+		
+		</style>
+</head>
+<body>
+<a class="top"></a>
+		<div class="src">
+				<table width=100%>
+						<tr>
+								<th style="width:18%">	
+										<p><a style="text-decoration:none; color:#2B231C;"href="https://github.com/kristinaurr"><b>@kristinaurr</b></a></p></th>
+								<th style="width:70%">
+										<input type="text" placeholder="Kristina Cassandra D. Bulacso"></th>
+								<th style="width:12%">
+										<img src="bilog.jpg"></th>
+								</tr>
+						</table>
+				</div>
+		
+		<nav>
+			<ul>
+				<li><a href="#All">All</a></li>
+				<li><a href="#AboutMe">About Me</a></li>
+				<li>	<a href="#MyEducation">My Education</a></li>
+				<li><a href="#MyProjects">My Projects</a></li>
+				<li><a href="#MyContacts">My Contacts</a></li>
+			</ul>
+				<hr style="margin-bottom: 12px; height:1px; opacity:0%">
+		</nav>
+		
+		<div class="undernav">
+		<div class="name"><a id="AboutMe"></a>
+		<h3 style="font-size: 35px; color:#191615; margin: 25px;">Kristina Cassandra Bulacso</h3>
+				
+				<p style="font-size: 20px; text-indent:35px; margin-top:-30px;">
+				Bachelor of Science in Information Technology - 1A</p>
+		</div>
+				
+		<div class="opening">
+		<table width=100%>
+				<tr class="pic">
+						<td rowspan="2"style="width:50%">
+						<img class="image"src="pfp.jpg"alt="My Photo">
+				</td>	
+						<td rowspan="2"class="quote"style="width:25%">
+								<img style="width:100%;"src="butterfly.jpg" alt="Nature">
+								<p>"All our dreams can come true if we have the courage to pursue them."</p>
+								<p style="text-align:right;">-Walt Disney</p>
+						</td>
+						
+						<div class="right">
+
+						<td class="age"style="width:12.5%;">
+							<p>Age</p>
+							<p>18<br> Years</p>
+							<p>Aug 30, 2007</p>
+						</td>
+						
+						<td class="nat"style="width:12.5%">
+										<p>Nationality</p>
+										<p>Filipino</p>
+						</td>
+
+						<tr>
+							<td class="baba"colspan="2">
+					<p>⠀⠀⠀⠀⠀⠀⢀⡤⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢀⡏⠀⠀⠈⠳⣄⠀⠀⠀⠀⠀⣀⠴⠋⠉⠉⡆⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠈⠉⠉⠙⠓⠚⠁⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⡞⠀⠀⠀⠀⠀⠶⠀⠀⠀⠀⠀⠀⠦⠀⠀⠀⠀⠀⠸⡆⠀⠀⠀
+⢠⣤⣶⣾⣧⣤⣤⣀⡀⠀⠀⠀⠀⠈⠀⠀⠀⢀⡤⠴⠶⠤⢤⡀⣧⣀⣀⠀
+⠀⠀⠙⠤⠴⢤⡤⠤⠤⠋⠉⠉⠉⠉⠉⠉⠉⠳⠖⠦⠤⠶⠦⠞⠁⠀</p>
+		</td>
+    </tr>
+	</div
+			</div>
+
+						</tr>
+		</table>
+		
+			<hr style="margin-top:20px;height:1.5px; background-color:#D2C4B4; opacity:25%">
+		
+		<div class="wiki">
+		<table>
+			<tr>
+				<td class="wimg"rowspan="2" ><img style="width:25px;border-radius:50%;"src="wiki.png" alt="Wikipedia logo"></td>
+			</tr>
+			<tr>
+				<td><p><b>Wikipedia</b> <br> https://en.wikipedia.org > wiki > Kristina_Cassandra_Bulacso</p></td>
+			</tr>
+			<tr>
+					<td></td>
+				<td  style="width:100%">
+				<p style="text-indent:50px; margin-top:-20px;">Hello! I’m Kristina Cassandra D. Bulacso, a first-year Information Technology student at Pampanga 
+					State Agricultural University. This portfolio highlights my projects, experience, and skills, reflecting
+					my growth and dedication to this subject, WS101. It shows the projects I’ve worked on, 
+					what I’ve learned along the way, and how I continue to grow in this field.<br><br>
+					
+					Feel free to explore my work and get a better sense of what I do. Thanks for taking the time to visit! °❀⋆.ೃ࿔*:･</p>
+				</td>
+			</tr>
+			
+
+			<tr>
+				<td class="wimg2"rowspan="2" ><img style="width:25px;border-radius:50%;"src="wiki.png" alt="Wikipedia logo"></td>
+			</tr>
+			<tr>
+				<td><p><b>Wikipedia </b><br> https://en.wikipedia.org > wiki > My_Education</p></td>
+			</tr>
+			<tr>
+					<td></td>
+				<td  style="width:100% ">
+				<p style="margin-top:-20px;">-Pampanga State Agricultural University, Magalang Pampanga (2025-Current)<br>
+				-Benigno S. Aquino National High School, JHS, SHS, Concepcion, Talac(2019-2026)<br>
+				-Pao Elementary School</p>
+				</td>
+			</tr>
+		</table>
+		</div>
+		
+		<div class="abt">			<a id="MyEducation"></a>
+
+		<p style="font-weight:bold; font-size: 18px;">About ₍^. .^₎Ⳋ  </p>
+		<p style="text-indent:50px;">Hi there, I'm Kristina! I’m someone who
+		enjoys anything relating to art, and I like creating things that are both meaningful and
+		creative.</p>
+
+		<p style="text-indent:50px;">In my free time, I enjoy drawing, painting, and crocheting/sewing. I also have other interests 
+		such as watching movies, gaming, designing, etc., which helps me stay inspired and relaxed.</p>
+		
+		<p style="text-indent:50px;">A few fun facts about me: I enjoy trying new things even if they’re a little outside my comfort 
+		zone, and I like adding small creative touches to whatever I do. I’m someone who values growth, 
+		creativity, and trying new things.</p>
+		
+
+    	<table width="100%">
+			<tr>
+				<td><p>Born</p></td>
+				<td style="padding:10px;"><p>August 30, 2007 (age 18 years), Concepcion, Tarlac</p></td>
+			</tr>
+			
+			<tr>
+				<td><p>Full Name</p></td>
+				<td style="padding:10px;"><p>Kristina Cassandra Bulacso</p></td>
+			</tr>
+			
+			<tr>
+				<td><p>Education</p></td>
+				<td style="padding:10px;"><p>Pampanga State Agricultural University, 2025 - Current<br>
+				</p></td>
+			</tr>
+			
+			<tr>
+				<td><p>Hobbies</p></td>
+				<td style="padding:10px;"><p>Drawing, Painting, Crocheting, Sewing, Playing games</p></td>
+			</tr>
+				
+				</table>
+				<p style="margin-top:-20px; margin-bottom:-40px;"><b>Contact Me . ₊˚ ☎︎₊˚✧</b></p>				<a id="MyContacts"></a>
+				<table class="profiles" style="width:100%">
+				<tr>
+				<td style="width:33%"><a href="https://github.com/kristinaurr"><img src="githublogo.webp" ></a></td>		
+				<td  style="width:33%"><a href="mailto:kristinacassandrabulacso@gmail.com"><img src="gmaillogo.webp" ></a></td>
+				<td  style="width:33%"><a href="https://facebook.com/skyzsse"> <img src="fbooklogo.png" ></a></td>
+				</tr>
+				</table>
+				
+				<div class="bot">
+				<a class="bottom"></a>
+		<a href="#top"style="text-decoration:none; color:#2B231C;">Go to top</a>
+		</div>
+			</div>
+
+		
+		<hr style="margin-bottom:15px;height:1px; background-color:#2F2523;">
+		
+		
+			<h3 style="text-indent:50px;color:#2B231C;">My Projects /ᐠ - ˕ -マ</h3>	<a id="MyProjects"></a>
+		<div class="projects">
+
+		<table class="projtable" style=" width:65%;">
+		<tr>
+		<td style="width:10%; "rowspan="2"><a href="L_1.html"><img src="l1_output1.png"style="width:100%;"></a></td>
+		<td><a style="text-decoration:none; color:#2B231C; padding:5px;"href="L_1.html"><b>Lab Task 1: Resume</b></a></td>
+		</tr>
+		<tr>
+		<td style=" padding:5px;font-size:15px;">Creating a resume.</td>
+		</tr>		
+		<tr>
+		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#D2C4B4" ></td>
+		</tr>
+		
+		<tr>
+		<td style="width:10%; "rowspan="2"><a href="L_2.html"><img src="l2_output1.png"style="width:100%;"></a></td>
+		<td><a style="text-decoration:none; color:#2B231C; padding:5px;"href="L_2.html"><b>Lab Task 2: Nested List</b></a></td>
+		</tr>	
+		<tr>
+		<td style=" padding:5px;font-size:15px;">Arranging lists.</td>
+		</tr>		
+		<tr>
+		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#D2C4B4" ></td>
+		</tr>
+		
+			<tr>
+		<td style="width:10%;  "rowspan="2"><a href="L_3.html"><img src="l3_output1.png"style="width:100%;"></a></td>
+		<td><a style="text-decoration:none; color:#2B231C; padding:5px;" href="L_3.html"><b>Lab Task 3: Image Maps</b></a></td>
+		</tr>	
+		<tr>
+		<td style=" padding:5px;font-size:15px;">Making images Interactable.</td>
+		</tr>		
+		<tr>
+		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#D2C4B4" ></td>
+		</tr>
+		
+			<tr>
+		<td style="width:10%; "rowspan="2"><a href="L_4.html"><img src="l4_output1.png"style="width:100%;"></a></td>
+		<td><a style="text-decoration:none ;color:#2B231C; padding:5px;"href="L_4.html"><b>Lab Task 4: HTML Forms</b></a></td>
+		</tr>	
+		<tr>
+		<td style=" padding:5px;font-size:15px;">UI Design.</td>
+		</tr>		
+		<tr>
+		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#D2C4B4" ></td>
+		</tr>
+		
+			<tr>
+		<td style="width:10%;  "rowspan="2"><a href="L_5.html"><img src="l5_output1.png"style="width:100%;"></a></td>
+		<td><a style="text-decoration:none; color:#2B231C; padding:5px;" href="L_5.html"><b>Lab Task 5: Applying CSS</b></a></td>
+		</tr>	
+		<tr>
+		<td style=" padding:5px;font-size:15px;">Applying CSS to a resume.</td>
+		</tr>		
+		<tr>
+		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#D2C4B4" ></td>
+		</tr>
+		
+			<tr>
+		<td style="width:10%;  "rowspan="2"><a href="L_6.html"><img src="l6_output1.png"style="width:100%;"></a></td>
+		<td><a style="text-decoration:none; color:#2B231C; padding:5px;" href="L_6.html"><b>Lab Task 6: Using CSS Display</b></a></td>
+		</tr>	
+		<tr>
+		<td style=" padding:5px;font-size:15px;">Using the display property.</td>
+		</tr>		
+		<tr>
+		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#D2C4B4" ></td>
+		</tr>
+		
+		<tr>
+		<td style="width:10%; "rowspan="2"><a href="L_7.html"><img src="l7_output1.png"style="width:100%;"></a></td>
+		<td><a style="text-decoration:none; color:#2B231C; padding:5px;" href="L_7.html"><b>Lab Task 7: Semantics</b></a></td>
+		</tr>	
+		<tr>
+		<td style=" padding:5px; ">Using semantic elements.</td>
+		</tr>		
+		<tr>
+		</tr>
+		</table>
+</div>
+		</div>
+</body>
+</html>
