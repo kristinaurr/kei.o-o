@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+		<title>HTML Forms</title>
+		<style>
+		body{
+		font-family:times new roman;}
+		</style>
+</head>
+<body>
+		<h1 style="color:orange">How can we help?</h1>
+		<fieldset>
+				<legend style="color:blue">Request for Proposal</legend>
+				<table>
+						
+				<form>
+					<tr>
+						<td><label>Your Name:</label></td><td><input type="text" size="15"
+						placeholder="Your Name"></td>
+					</tr>
+					<tr>
+						<td><label>Email:</label></td><td><input type="text" size="15"
+						placeholder="Email"></td>
+					</tr>
+					<tr>
+						<td><label>Username:</label></td><td><input type="text" size="15"
+						placeholder="Username"></td>
+					</tr>
+					<tr>
+						<td><label>Password:</label></td><td><input type="password" size="15"
+						placeholder="Password"></td>
+					</tr>
+					<tr>
+						<td><label>Your Business:</label></td><td><textarea 
+						placeholder="Briefly describe your business in this space"></textarea></td>
+					</tr>
+				</form>
+						
+					<tr>
+						<td>Company Size:</td>
+						<td><input type="radio" name="Company Size" value="Less than 10">
+						<label>Less than 10</label><br>
+					</tr>
+					<tr>
+						<td width="82"></td>
+						<td><input type="radio"name="Company Size" value="11-50" >
+						<label>11-50</label></td>
+					</tr>
+					<tr>
+						<td width="82"></td>
+						<td><input type="radio"name="Company Size" value="50-200">
+						<label>50-200</label></td>
+				 	</tr>
+					<tr>
+							<td width="82"></td>
+							<td><input type="radio"name="Company Size" value= "Over 200">
+							<label>Over 200</label></td>
+				 	</tr>
+					
+					<tr>
+						<td>	<label>Service: </label></td>
+						<td><input type="checkbox" name="Service" value="Brand Identity">
+						<label>Brand Identity</label></td>
+						<td><input type="checkbox" name="Service" value="New Website">
+						<label>New Website</label></td>
+						<td><input type="checkbox" name="Service" value="Web Redesigner">
+						<label>Web Redesigner</label></td>
+					</tr>
+								
+					<tr>
+							<td><label>Timeline:</label></td>
+							<td>
+						
+					<select>
+							<optgroup label="Timeline:">								
+							<option>Immediately</option>
+							<option>1-2 weeks</option>
+							<option>3-6 weeks</option>
+							<option>7-2 months</option>
+				 		</optgroup>
+					</td>
+					</select>
+					<br>
+					<tr>
+							<td width="82"></td>
+							<td><button type="Send to dev/design">Send to dev/design</button>
+							</td>
+					</tr>
+					
+			</table>
+		</fieldset>
+</body>
+</html>
