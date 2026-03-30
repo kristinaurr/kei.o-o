@@ -2,16 +2,20 @@
 
 <html>
 <head>
-		<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
 		<title>My Portfolio</title>
 		<style>
 		body{
 				margin:-5px;
 				background-color:#FAF9EE;
 				font-family:roboto;
-				line-height:1.7;
+				line-height:1.5;
 				font-size:17px;
 				color:black;
+		}
+		
+		*{
+		box-sizing:border-box;
 		}
 		
 		.src table{
@@ -87,7 +91,7 @@
 		
 		.image{
 				border-radius:25px;
-				width:100%;
+				width:615px;
 		}
 		
 		.quote{
@@ -124,10 +128,6 @@
 				background-color:#D2C4B4;
 		}
 				
-		
-		.image{
-				width:100%;
-		}
 
 
 		.wiki table{
@@ -147,7 +147,8 @@
 		padding:25px;
 		width:30%;
 		float:right;
-		border-left: 1px solid black;
+		border-left: 2px solid ;
+		border-color:#D2C4B4;
 		}
 		
 		
@@ -156,6 +157,7 @@
 				padding:10px;
 				background-color:#D2C4B4;
 				margin-top:65px;
+				margin-bottom:50px;
 		}
 		
 		.projects{
@@ -189,8 +191,37 @@
 		border:3px solid;
 		border-color:#D2C4B4;
 		border-radius:10px;
-		
 		}
+		
+	
+		@media (max-width:768px){
+		
+			.right{
+		 display:flex;
+			flex-direction: column;
+			align-items:flex-start;
+			width:40%;
+			float:left;
+			}
+			
+			.quote{
+			float:left;
+			height:200px;
+			}
+			
+			.quote p{
+			margin-top:-10px;
+			line-height:1.0;
+			}	
+			
+		 .pic, .quote{
+		 width:100%;
+		 display:block;
+			flex-direction: column;
+			float:left;
+			}
+			}
+			
 		
 		</style>
 </head>
@@ -230,17 +261,18 @@
 				
 		<div class="opening">
 		<table width=100%>
-				<tr>
+				<tr class="pic">
 						<td rowspan="2"style="width:50%">
 						<img class="image"src="pfp.jpg"alt="My Photo">
 				</td>	
-						
 						<td rowspan="2"class="quote"style="width:25%">
-								<img style="margin-top:-15px;width:100%;"src="butterfly.jpg" alt="Nature">
+								<img style="width:100%;"src="butterfly.jpg" alt="Nature">
 								<p>"All our dreams can come true if we have the courage to pursue them."</p>
 								<p style="text-align:right;">-Walt Disney</p>
 						</td>
 						
+						<div class="right">
+
 						<td class="age"style="width:12.5%;">
 							<p>Age</p>
 							<p>18<br> Years</p>
@@ -250,25 +282,23 @@
 						<td class="nat"style="width:12.5%">
 										<p>Nationality</p>
 										<p>Filipino</p>
-								
-	<tr>
-		<td class="baba"colspan="2">
-    		<p style="text-indent:25px;"> 
-		⠀   ⠀⠀⢀⡤⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢀⠞⠀⠀⠀   ⠀⠈⠉⠉⠙⠓⠚⠁⠀⠹⣄⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⢀⠞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣄⠀⠀⠀⠀
+						</td>
+
+						<tr>
+							<td class="baba"colspan="2">
+					<p>⠀⠀⠀⠀⠀⠀⢀⡤⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢀⡏⠀⠀⠈⠳⣄⠀⠀⠀⠀⠀⣀⠴⠋⠉⠉⡆⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠈⠉⠉⠙⠓⠚⠁⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⡞⠀⠀⠀⠀⠀⠶⠀⠀⠀⠀⠀⠀⠦⠀⠀⠀⠀⠀⠸⡆⠀⠀⠀
-   ⣤⣶⣾⣧⣤⣤⣀⡀⠀⠀⠀⠀⠈⠀⠀⠀⢀⡤⠴⠶⠤⢤⡀⣧⣀
-⠀⠀⠙⠤⠴⢤⡤⠤⠤⠋⠉⠉⠉⠉⠉⠉⠉⠳⠖⠦⠤⠶⠦⠞⠁⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<!--I am an aspiring developer who loves turning ideas into working code. 
-			This portfolio highlights my works, skills, and growth in my IT journey. I'm constantly exploring new ways
-			to improve my skills and create meaningful digital experiences.--></p>
+⢠⣤⣶⣾⣧⣤⣤⣀⡀⠀⠀⠀⠀⠈⠀⠀⠀⢀⡤⠴⠶⠤⢤⡀⣧⣀⣀⠀
+⠀⠀⠙⠤⠴⢤⡤⠤⠤⠋⠉⠉⠉⠉⠉⠉⠉⠳⠖⠦⠤⠶⠦⠞⠁⠀</p>
 		</td>
     </tr>
-						</td>
+	</div
+			</div>
+
 						</tr>
 		</table>
-		</div>
 		
 			<hr style="margin-top:20px;height:1.5px; background-color:#D2C4B4; opacity:25%">
 		
@@ -283,7 +313,7 @@
 			<tr>
 					<td></td>
 				<td  style="width:100%">
-				<p style="text-indent:50px;">Hello! I’m Kristina Cassandra D. Bulacso, a first-year Information Technology student at Pampanga 
+				<p style="text-indent:50px; margin-top:-20px;">Hello! I’m Kristina Cassandra D. Bulacso, a first-year Information Technology student at Pampanga 
 					State Agricultural University. This portfolio highlights my projects, experience, and skills, reflecting
 					my growth and dedication to this subject, WS101. It shows the projects I’ve worked on, 
 					what I’ve learned along the way, and how I continue to grow in this field.<br><br>
@@ -301,8 +331,8 @@
 			</tr>
 			<tr>
 					<td></td>
-				<td  style="width:100%">
-				<p>-Pampanga State Agricultural Univerity, Magalang Pampanga (2025-Current)<br>
+				<td  style="width:100% ">
+				<p style="margin-top:-20px;">-Pampanga State Agricultural University, Magalang Pampanga (2025-Current)<br>
 				-Benigno S. Aquino National High School, JHS, SHS, Concepcion, Talac(2019-2026)<br>
 				-Pao Elementary School</p>
 				</td>
@@ -348,7 +378,7 @@
 			</tr>
 				
 				</table>
-				<p><b>Contact Me . ₊˚ ☎︎₊˚✧</b></p>				<a id="MyContacts"></a>
+				<p style="margin-top:-20px; margin-bottom:-40px;"><b>Contact Me . ₊˚ ☎︎₊˚✧</b></p>				<a id="MyContacts"></a>
 				<table class="profiles" style="width:100%">
 				<tr>
 				<td style="width:33%"><a href="https://github.com/kristinaurr"><img src="githublogo.webp" ></a></td>		
@@ -367,85 +397,84 @@
 		<hr style="margin-bottom:15px;height:1px; background-color:#2F2523;">
 		
 		
-			<h3 style="text-indent:30px;color:#2B231C;">My Projects /ᐠ - ˕ -マ</h3>	<a id="MyProjects"></a>
+			<h3 style="text-indent:50px;color:#2B231C;">My Projects /ᐠ - ˕ -マ</h3>	<a id="MyProjects"></a>
 		<div class="projects">
 
 		<table class="projtable" style=" width:65%;">
 		<tr>
-		<td style="width:10%; padding:5px; "rowspan="2"><a href="L_1.html"><img src="l1_output1.png"style="width:100%;"></a></td>
+		<td style="width:10%; "rowspan="2"><a href="L_1.html"><img src="l1_output1.png"style="width:100%;"></a></td>
 		<td><a style="text-decoration:none; color:#2B231C; padding:5px;"href="L_1.html"><b>Lab Task 1: Resume</b></a></td>
 		</tr>
 		<tr>
 		<td style=" padding:5px;font-size:15px;">Creating a resume.</td>
 		</tr>		
 		<tr>
-		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#2F2523" style="opacity:50%"></td>
+		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#D2C4B4" ></td>
 		</tr>
 		
 		<tr>
-		<td style="width:10%; padding:5px;  "rowspan="2"><a href="L_2.html"><img src="l2_output1.png"style="width:100%;"></a></td>
+		<td style="width:10%; "rowspan="2"><a href="L_2.html"><img src="l2_output1.png"style="width:100%;"></a></td>
 		<td><a style="text-decoration:none; color:#2B231C; padding:5px;"href="L_2.html"><b>Lab Task 2: Nested List</b></a></td>
 		</tr>	
 		<tr>
 		<td style=" padding:5px;font-size:15px;">Arranging lists.</td>
 		</tr>		
 		<tr>
-		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#2F2523" style="opacity:50%"></td>
+		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#D2C4B4" ></td>
 		</tr>
 		
 			<tr>
-		<td style="width:10%; padding:5px; "rowspan="2"><a href="L_3.html"><img src="l3_output1.png"style="width:100%;"></a></td>
+		<td style="width:10%;  "rowspan="2"><a href="L_3.html"><img src="l3_output1.png"style="width:100%;"></a></td>
 		<td><a style="text-decoration:none; color:#2B231C; padding:5px;" href="L_3.html"><b>Lab Task 3: Image Maps</b></a></td>
 		</tr>	
 		<tr>
 		<td style=" padding:5px;font-size:15px;">Making images Interactable.</td>
 		</tr>		
 		<tr>
-		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#2F2523" style="opacity:50%"></td>
+		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#D2C4B4" ></td>
 		</tr>
 		
 			<tr>
-		<td style="width:10%; padding:5px;"rowspan="2"><a href="L_4.html"><img src="l4_output1.png"style="width:100%;"></a></td>
+		<td style="width:10%; "rowspan="2"><a href="L_4.html"><img src="l4_output1.png"style="width:100%;"></a></td>
 		<td><a style="text-decoration:none ;color:#2B231C; padding:5px;"href="L_4.html"><b>Lab Task 4: HTML Forms</b></a></td>
 		</tr>	
 		<tr>
 		<td style=" padding:5px;font-size:15px;">UI Design.</td>
 		</tr>		
 		<tr>
-		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#2F2523" style="opacity:50%"></td>
+		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#D2C4B4" ></td>
 		</tr>
 		
 			<tr>
-		<td style="width:10%; padding:5px; "rowspan="2"><a href="L_5.html"><img src="l5_output1.png"style="width:100%;"></a></td>
+		<td style="width:10%;  "rowspan="2"><a href="L_5.html"><img src="l5_output1.png"style="width:100%;"></a></td>
 		<td><a style="text-decoration:none; color:#2B231C; padding:5px;" href="L_5.html"><b>Lab Task 5: Applying CSS</b></a></td>
 		</tr>	
 		<tr>
 		<td style=" padding:5px;font-size:15px;">Applying CSS to a resume.</td>
 		</tr>		
 		<tr>
-		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#2F2523" style="opacity:50%"></td>
+		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#D2C4B4" ></td>
 		</tr>
 		
 			<tr>
-		<td style="width:10%; padding:5px; "rowspan="2"><a href="L_6.html"><img src="l6_output1.png"style="width:100%;"></a></td>
+		<td style="width:10%;  "rowspan="2"><a href="L_6.html"><img src="l6_output1.png"style="width:100%;"></a></td>
 		<td><a style="text-decoration:none; color:#2B231C; padding:5px;" href="L_6.html"><b>Lab Task 6: Using CSS Display</b></a></td>
 		</tr>	
 		<tr>
 		<td style=" padding:5px;font-size:15px;">Using the display property.</td>
 		</tr>		
 		<tr>
-		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#2F2523" style="opacity:50%"></td>
+		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#D2C4B4" ></td>
 		</tr>
 		
 		<tr>
-		<td style="width:10%; padding:5px; "rowspan="2"><a href="L_7.html"><img src="l7_output1.png"style="width:100%;"></a></td>
+		<td style="width:10%; "rowspan="2"><a href="L_7.html"><img src="l7_output1.png"style="width:100%;"></a></td>
 		<td><a style="text-decoration:none; color:#2B231C; padding:5px;" href="L_7.html"><b>Lab Task 7: Semantics</b></a></td>
 		</tr>	
 		<tr>
-		<td style=" padding:5px; font-size:15px;">Using semantic elements.</td>
+		<td style=" padding:5px; ">Using semantic elements.</td>
 		</tr>		
 		<tr>
-		<td colspan="2"><hr margin-bottom="20px"height="1px" color="#2F2523" style="opacity:50%"></td>
 		</tr>
 		</table>
 </div>
