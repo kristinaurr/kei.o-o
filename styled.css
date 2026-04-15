@@ -46,6 +46,7 @@ body{
   border: 1px solid lightgrey;
   border-radius:4px;
   background-color: whitesmoke;
+font-size: 18px;
 }
 
 #menu li:hover{
