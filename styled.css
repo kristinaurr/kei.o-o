@@ -41,15 +41,17 @@ body{
 
 
 #menu li{
-  padding:3px;
+  
   list-style-type: none;
-  height:25px;
+  height:30px;
   margin-bottom: 5px;
   border: 1px solid lightgrey;
   border-radius:4px;
   background-color: whitesmoke;
   font-size: medium;
+  
 }
+
 
 #menu li:hover{
   background-color: #04AA6D;
@@ -59,7 +61,10 @@ body{
 }
 
 #menu a{
+  padding:3px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 #mid{
@@ -100,7 +105,7 @@ body{
 }
 
 #footer p{
-  font-size: large;
+  font-size: small;
   text-align: center;
 }
 
