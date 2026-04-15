@@ -113,8 +113,8 @@ body{
   #left,#mid,#right {
     width:100%;
   }
-  
 }
+
 @media screen and (max-width: 900px) {
   #lmr {
     flex-wrap: wrap;
