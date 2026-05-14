@@ -1,0 +1,11 @@
+#header{color: rgb(94, 94, 238);}
+        #lay4{
+            background-color: #F1F5FF;
+            padding: 20px;
+            height: fit-content;
+        }
+        .lay4-items{
+            background-color:white;
+            border-radius: 10px;
+            height: 550px;
+        }
